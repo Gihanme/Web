@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bird Log Book</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_map_gallery">Map</string>
+    <string-array name="birds">
+        <item>Parrot</item>
+        <item>Owl</item>
+        <item>Eagle</item>
+    </string-array>
+
+</resources>

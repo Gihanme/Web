@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.birdlogbook.sajja.birdlogbook.view.ViewImage">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:id="@+id/imageView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            />
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="longitude"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:inputType="numberDecimal"/>
+            <TextView android:id="@+id/lyView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="latitude"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+            <TextView android:id="@+id/lxView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="Date"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+            <TextView android:id="@+id/dateView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:inputType="date"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="Time"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+            <TextView android:id="@+id/timeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:inputType="time"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+        </TableRow>
+
+
+    </TableLayout>
+</ScrollView>

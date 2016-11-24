@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "407241058987",
+    "firebase_url": "https://locations-c0f41.firebaseio.com",
+    "project_id": "locations-c0f41",
+    "storage_bucket": "locations-c0f41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407241058987:android:1e2059626ec75609",
+        "android_client_info": {
+          "package_name": "com.birdlogbook.sajja.birdlogbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407241058987-bldvp0njmhs9vcoufujgubjhb75hemec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD73wKJX-p99wm4PRe67n_MY8M8CWbPzUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
